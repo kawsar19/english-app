@@ -229,11 +229,17 @@
     
   </div>
   <script>
+  
+  window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
+
     var myVar;
     
     function myFunction() {
       
-      myVar = setTimeout(showPage, 2000);
+     // myVar = setTimeout(showPage, 2000);
+     showPage()
     }
     
     function showPage() {
