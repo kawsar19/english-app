@@ -1,0 +1,122 @@
+[
+  
+ 
+
+{
+   
+    "english":" Hello",
+    "banan": "হ্যালো",
+    "bangla":" হ্যালো"
+    
+  },{
+   
+    "english":"  Hi",
+    "banan": "হাই",
+    "bangla":" ওহে "
+    
+  },{
+   
+    "english":" Hey",
+    "banan": "হেই",
+    "bangla":" ওহে, আরে"
+    
+  },{
+   
+    "english":" How are you?",
+    "banan": "হাউ আর ইউ",
+    "bangla":" তুমি / আপনি কেমন আছেন?"
+    
+  },{
+   
+    "english":" How are you doing?",
+    "banan": "হাউ আর ইউ ডুইং",
+    "bangla":" তুমি / আপনি কেমন আছ?"
+    
+  },{
+   
+    "english":"  What’s up?",
+    "banan": "হোয়াটসআপ",
+    "bangla":" কি খবর?"
+    
+  },{
+   
+    "english":" What’s going on?",
+    "banan": "হোয়াটস গোইং অন",
+    "bangla":" কি হচ্ছে?"
+    
+  },{
+   
+    "english":" Nice to meet you.",
+    "banan": "নাইস টু মিট ইউ",
+    "bangla":" তোমার সাথে দেখা করে ভালো লাগলো।"
+    
+  },{
+   
+    "english":" Good to see you",
+    "banan": "গোড টু সী ইউ",
+    "bangla":" তোমাকে দেখে ভাল লাগলো।"
+    
+  },{
+   
+    "english":"  I’m so happy to see you again.",
+    "banan": "আই এম ভেরি হ্যাপি টু সী ইউ এগেইন",
+    "bangla":" আমি তোমাকে আবার দেখতে পেয়ে খুব খুশি।"
+    
+  },{
+   
+    "english":" Wow, it’s so good to see you again!",
+    "banan": "ওয়াও ইটস সো গোড টু সী ইউ এগেইন",
+    "bangla":" বাহ, আপনাকে আবার দেখে খুব ভালো লাগছে!"
+    
+  },
+{
+   
+    "english":"  Pretty good.",
+    "banan": "প্রেটি গুড",
+    "bangla":" বেশ ভাল।"
+    
+  },{
+   
+    "english":" Not bad. You?",
+    "banan": "নট বেড. ইউ? ",
+    "bangla":" খারাপ না. আপনি?"
+    
+  },{
+   
+    "english":" I’m fine, thank you",
+    "banan": " আই এম ফাইন,  থেংক ইউ",
+    "bangla":" আমি ঠিক আছি, ধন্যবাদ।"
+    
+  },{
+   
+    "english":" Wonderful, thank you",
+    "banan": "ওয়ান্ডারফুল,  থেংক ইউ",
+    "bangla":" দারুণ, আপনাকে ধন্যবাদ."
+    
+  },{
+   
+    "english":" Same as always",
+    "banan": "সেম এজ অলয়েজ",
+    "bangla":" সর্বদা একি রকম / আগের মতোই আছি।"
+    
+  },{
+   
+    "english":" Great, thanks. How are you?",
+    "banan": "গ্রেট, থেংস. হাউ আর ইউ? ",
+    "bangla":" অনেক ভালো, ধন্যবাদ. আপনি কেমন আছেন?"
+    
+  },{
+   
+    "english":" I’m fine, thanks. How about you?",
+    "banan": "আই এম ফাইন থেংস., হাউ এবাউট ইউ? ",
+    "bangla":" আমি ভালো আছি. তোমার কী অবস্থা?"
+    
+  },{
+   
+    "english":"  I’m doing very well, thank you. And you?",
+    "banan": "",
+    "bangla":" আমি খুব ভাল আছি, ধন্যবাদ. এবং তুমি কেমন আছ? "
+    
+  }
+  
+]

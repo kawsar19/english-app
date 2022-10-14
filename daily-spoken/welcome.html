@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Class two</title>
+  <link rel="stylesheet" href="../must-vocabulary/style.css">
+
+  <style>
+    .box {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+
+    .kalporosh {
+      font-size: 18px !important;
+      letter-spacing: 0px;
+      color: #006D4C !important;
+    }
+
+    .comic{
+      color: #B12E2E !important;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div class="top">
+    <img src="../assets/images/arrow-back.png" onclick="history.back()" alt="back image ">
+    <p class="length">0</p>
+  </div>
+  <script>
+    const loader = document.querySelector('.loader')
+
+    fetch('json/welcome.json')
+      .then(res => res.json())
+      .then(data =>
+
+
+        {
+          let iterations = data.length;
+          //   alert(iterations)
+
+          document.querySelector('.length').innerHTML = data.length
+
+
+          for (item of data) {
+
+            const div = document.createElement('div')
+
+            div.innerHTML = `  <div class="box"> 
+  
+        <p  class="comic">${item.english}
+         
+              
+              
+        </p>
+  
+  
+        
+        
+        <p class="kalporosh bangla" >${item.bangla}</p>
+      </div>`
+            loader.style.display = 'none'
+            document.body.appendChild(div)
+
+
+
+
+
+          }
+
+
+        })
+  </script>
+</body>
+
+</html>

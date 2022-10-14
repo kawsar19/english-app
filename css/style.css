@@ -89,6 +89,8 @@ input {
   background: #fff;
   -webkit-transition: all .35s;
   transition: all .35s;
+  overflow-y: scroll;
+  
 }
 .tab-close {
   display: -webkit-box;
@@ -112,8 +114,9 @@ input:checked + .tab-label::after {
           transform: rotate(90deg);
 }
 input:checked ~ .tab-content {
-  max-height: 100vh;
+  max-height: 300px;
   padding: 1em;
+  overflow-y: scroll;
 }
 
 
