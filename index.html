@@ -17,9 +17,13 @@
 
 </head>
 
-<body>
-
-
+<body onload="myFunction()">
+<div class="loader" id="loader">
+  <div class="bars-1"></div>
+  
+</div>
+<div id="myDiv">
+  
   <header class="ScriptHeader">
     <div class="rt-container">
       <div class="col-rt-12">
@@ -221,6 +225,23 @@
       </div>
     </div>
   </section>
+  
+    
+  </div>
+  <script>
+    var myVar;
+    
+    function myFunction() {
+      
+      myVar = setTimeout(showPage, 2000);
+    }
+    
+    function showPage() {
+     
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
   
 </body>
 
